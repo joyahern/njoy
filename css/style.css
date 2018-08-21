@@ -1,0 +1,130 @@
+html, body{
+  font-size:16px;
+ }
+body {
+background-color: #F0F8FF;
+background-size: cover;
+color:grey;
+font-family: "Tangerine", cursive;
+font-size: 4rem;
+height:100%;
+width:100%;
+margin-top:20px;
+}
+
+.container{
+width: 80%;
+}
+
+.navbar{
+text-align: center;
+}
+
+.nav-item{
+  padding: 30px;
+}
+
+.navbar-nav {
+height: 100px;
+margin-left: 150px;
+
+}
+
+.navbar-brand{
+text-align: center;
+width:250px;
+margin-top: 20px;
+font-size: 3.7rem;
+  }
+  
+  i {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  
+.biz-name   {
+color:grey;
+font-weight: bold;
+font-size:4rem;
+margin: 20px;
+text-align: center;
+border-style: solid;
+border-radius: 5px;
+}
+
+.biz-name h1,h2{
+font-weight: 600;
+font-size:3rem;
+margin: 10px;
+text-align: center;
+}
+
+#carouselExampleControls{
+  margin:auto;
+  width: 95%;
+}
+
+.video{
+  text-align: center;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer{
+  height: 200px;
+  margin:auto;
+  width:100%;
+  text-align: center;
+}
+
+.footer-contact p { 
+  text-align: center;
+  margin-top: 80px;
+  font-size: 2rem;
+}
+ 
+.card-body{
+text-align: center;
+font-size: 3rem;
+}
+
+.btn{
+  font-size: 3rem;
+}
+
+/*media queries*/
+@media (max-width:576px){
+  body, html{
+    font-size: 14px;
+  }  
+}
+
+/*wedding packages start*/
+.packages{
+  margin-top: 15px;
+  padding: 30px;
+  border-color: grey;
+}
+
+.packages {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.packages h3{
+  font-size: 2rem;
+}
+/*wedding packages end*/
+
+/*preferred vendors start*/
+.vendors{
+  margin-top: 50px;
+  padding: 30px;
+}
+.vendors {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+/*preferred vendors end*/
