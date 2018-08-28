@@ -96,9 +96,9 @@ font-size: 3rem;
 
 /*media queries*/
 @media (max-width:576px){
-  body, html{
-    font-size: 14px;
-  }  
+ .navbar-brand{
+font-size: 14px;
+  }
 }
 
 /*wedding packages start*/
