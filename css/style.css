@@ -1,6 +1,7 @@
 html, body{
   font-size:16px;
- }
+}
+
 body {
 background-color: #F0F8FF;
 background-size: cover;
@@ -21,13 +22,11 @@ text-align: center;
 }
 
 .nav-item{
-  padding: 30px;
+padding: 30px;
 }
 
 .navbar-nav {
-
 margin-left: 150px;
-
 }
 
 .navbar-brand{
@@ -35,14 +34,14 @@ text-align: center;
 width:250px;
 margin-top: 20px;
 font-size: 3.7rem;
-  }
+}
   
-  i {
-    margin-left: 40px;
-    margin-top: 20px;
-  }
+i{
+margin-left: 40px;
+margin-top: 20px;
+}
   
-.jumbotron   {
+.jumbotron{
 color:grey;
 font-weight: bold;
 font-size:4rem;
@@ -94,11 +93,9 @@ font-size: 3rem;
   font-size: 3rem;
 }
 
-/*media queries*/
-@media (max-width:576px){
- .navbar-brand{
-font-size: 14px;
-  }
+@media (max-width:650px){
+  video{width:440px;height:auto;
+}
 }
 
 /*wedding packages start*/
@@ -108,24 +105,26 @@ font-size: 14px;
   border-color: grey;
 }
 
-.packages {
+.packages{
   text-align: center;
   font-size: 2rem;
   font-weight: bolder;
 }
+
 .packages h3{
-  font-size: 2rem;
+font-size: 2rem;
 }
 /*wedding packages end*/
 
 /*preferred vendors start*/
 .vendors{
-  margin-top: 50px;
-  padding: 30px;
+margin-top: 50px;
+padding: 30px;
 }
+
 .vendors {
-  text-align: center;
-  font-size: 2rem;
-  font-weight: bolder;
+text-align: center;
+font-size: 2rem;
+font-weight: bolder;
 }
 /*preferred vendors end*/
